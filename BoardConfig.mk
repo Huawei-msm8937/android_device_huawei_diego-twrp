@@ -26,7 +26,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 
 # prebuilt kernel
-TARGET_PREBUILT_KERNEL := device/wileyfox/marmite/kernel
+TARGET_PREBUILT_KERNEL := device/huawei/diego/kernel
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 41943040
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 41943040
