@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/diego/kernel:kernel
 
 PRODUCT_NAME := omni_diego
-PRODUCT_DEVICE := Diego
+PRODUCT_DEVICE := diego
 PRODUCT_BRAND := huawei
 PRODUCT_MODEL := Diego
 PRODUCT_MANUFACTURER := Huawei
