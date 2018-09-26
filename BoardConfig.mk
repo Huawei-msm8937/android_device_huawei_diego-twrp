@@ -68,6 +68,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # TWRP Configuration
 RECOVERY_VARIANT= twrp
+TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_THEME := portrait_hdpi
 TW_INCLUDE_CRYPTO := true
 TW_MAX_BRIGHTNESS := 255
