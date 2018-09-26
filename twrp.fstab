@@ -34,4 +34,4 @@
 /modemst2	 emmc              /dev/block/bootdevice/by-name/modemst2		flags=subpartitionof=/fsg;backup=1
 
 /external_sd     auto              /dev/block/mmcblk1p1     /dev/block/mmcblk1        flags=display="MicroSD Card";storage;wipeingui;removable
-/usb-otg         vfat              /dev/block/sdg1      /dev/block/sdg              flags=removable;storage;display=USB-OTG
+/usb-otg         auto              /dev/block/sda1                                    flags=display="USB Storage";storage;wipeingui;removable
